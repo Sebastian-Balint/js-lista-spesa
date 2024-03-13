@@ -25,3 +25,21 @@ for (let i = 0; i < listFor.length; i++) {
   const thisItemFor = listFor[i];
   document.querySelector("#lista-for").innerHTML += `<li>${thisItemFor}</li>`;
 }
+
+// ciclo while
+const listWhile = [
+  "Latte",
+  "Cacao",
+  "Insalata",
+  "Carote",
+  "Pomodori",
+  "Piatti pronti",
+];
+let i = 0;
+while (i < listWhile.length) {
+  let thisItemWhile = listWhile[i];
+  document.querySelector(
+    "#lista-while"
+  ).innerHTML += `<li>${thisItemWhile}</li>`;
+  i++;
+}
